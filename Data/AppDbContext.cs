@@ -7,4 +7,6 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
 {
     public DbSet<Micro> Micro { get; set; }
     public DbSet<Helicoptero> Helicoptero => Set<Helicoptero>();
+    
+    
 }
