@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Prueba2.Data;
-using Prueba2.Models;
+using BaddieAPI.Data;
+using BaddieAPI.Models;
 
-namespace Prueba2.Controllers;
+namespace BaddieAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
